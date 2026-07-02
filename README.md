@@ -1,40 +1,30 @@
-# Website Vulnerability Assessment Report
+# Future Interns – Cyber Security Tasks
 
-## Project Overview
-This repository contains a passive, read-only security assessment of my personal academic project, the Laundry Management System (Washify).
+This repository contains my cybersecurity task submissions completed as part of the Future Interns internship program.
 
-## Website Tested
-- **Website:** Laundry Management System (Washify)
-- **URL:** https://laundry-management-system-1-2prt.onrender.com
-- **Ownership:** Personal academic project owned and controlled by the tester
+## Task 1: Website Vulnerability Assessment Report
 
-## Scope and Ethics
-The assessment was limited to public-facing pages and normal Admin Portal access.
+A read-only security review of the Washify laundry-management website.
 
-No login bypass, password testing, exploitation, brute-force attacks, denial-of-service testing, or active vulnerability scanning was performed.
+### Included
+- Vulnerability assessment report PDF
+- Evidence screenshots
+- Review of security headers, cookies, page source, and browser storage
+
+## Task 2: Phishing Detection & Awareness Report
+
+An educational analysis of a sample phishing email.
+
+### Included
+- Phishing Detection & Awareness Report PDF
+- Sample phishing email evidence
+- Identification of phishing indicators
+- High-risk classification and prevention guidelines
 
 ## Tools Used
-- Google Chrome DevTools
+- Browser Developer Tools
 - Canva
+- GitHub
 
-## Key Findings
-
-### 1. Incomplete Security Header Configuration — Medium Risk
-The website included `Strict-Transport-Security` and `X-Content-Type-Options`, but Content-Security-Policy, X-Frame-Options, Referrer-Policy, and Permissions-Policy were not observed during passive inspection.
-
-**Recommendation:** Configure the missing headers through Helmet in the Express backend.
-
-### 2. Application Data Stored in Local Storage — Medium Risk
-The application stores an administrator login indicator and laundry-entry data in browser Local Storage.
-
-**Recommendation:** Use backend authentication and authorization controls, server-side sessions, or secure HttpOnly cookies.
-
-## Informational Observations
-- No cookies were observed on the public homepage.
-- No obvious passwords, API keys, tokens, or database connection strings were found in public page source.
-- The Admin Portal displayed a username-and-password login screen during normal access.
-- No session data was observed during the review.
-
-## Repository Contents
-- `Washify_Vulnerability_Assessment_Report_Palak_Agarwal.pdf` — Final assessment report
-- `evidence/` — Supporting screenshots from passive browser inspection
+## Disclaimer
+All work in this repository is for educational and cybersecurity awareness purposes only.
