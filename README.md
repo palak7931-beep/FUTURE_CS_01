@@ -1,83 +1,51 @@
-# Future Interns – Cyber Security Tasks
+# Website Vulnerability Assessment Report
 
-This repository contains my cybersecurity task submissions completed as part of the Future Interns internship program.
+This repository contains my submission for **Cyber Security Task 1** completed as part of the **Future Interns Cyber Security Internship Program**.
 
----
+## Task Overview
 
-## Task 1: Website Vulnerability Assessment Report
+The task involved conducting a **read-only website vulnerability assessment** of the Washify laundry-management website.
 
-A read-only security review of the Washify laundry-management website.
+The purpose was to review publicly accessible security-related elements without attempting to exploit, bypass, or modify anything on the website.
 
-### Included
-- Website Vulnerability Assessment Report PDF
-- Evidence screenshots
-- Review of security headers, cookies, page source, and browser storage
-- Identified potential security observations and recommendations
+## Scope of Assessment
 
----
+The assessment focused on:
 
-## Task 2: Phishing Detection & Awareness Report
-
-An educational analysis of a sample phishing email to identify common phishing indicators and provide awareness guidance.
-
-### Included
-- Phishing Detection & Awareness Report PDF
-- Sample phishing email evidence
-- Identification of suspicious sender details, urgency language, generic greetings, and suspicious links
-- High-risk classification and prevention guidelines
-
----
-
-## Task 3: API Security Risk Analysis Report
-
-A safe, read-only security review of the JSONPlaceholder public demo API.
-
-### API Tested
-- JSONPlaceholder Public Demo API
-
-### Tool Used
-- Postman
-
-### Endpoints Reviewed
-- `GET /users`
-- `GET /users/1`
-- `GET /posts?userId=1`
-
-### Included
-- API Security Risk Analysis Report PDF
-- Postman response screenshots
-- Review of public endpoints and API response data
-- Risk severity assessment and business impact analysis
-- Security recommendations and remediation plan
-
-### Key Findings
-- Publicly accessible endpoints
-- User information exposed in API responses
-- No visible rate limiting
-- No authentication required for tested endpoints
-
-### Recommendations
-- Implement authentication and authorization controls
-- Minimize unnecessary data exposure
-- Add rate limiting and monitoring
-- Validate inputs and handle errors securely
-
----
+- Website security headers
+- Cookies and session-related settings
+- Browser storage
+- Publicly visible page source
+- Basic website security observations
+- Potential security risks and recommendations
 
 ## Tools Used
+
 - Browser Developer Tools
-- Postman
+- Browser Security Header Checks
 - Canva
 - GitHub
 
----
+## Files Included
+
+- **Website Vulnerability Assessment Report (PDF)**  
+  Contains the complete assessment, findings, risk classification, business impact, and recommendations.
+
+- **Evidence Folder**  
+  Contains screenshots collected during the read-only assessment.
+
+## Key Learning Outcomes
+
+Through this task, I learned how to:
+
+- Review a website ethically using read-only techniques
+- Inspect browser-based security information
+- Identify basic security risks
+- Classify findings by severity
+- Present security observations in a professional report format
 
 ## Disclaimer
 
-All work in this repository is for educational and cybersecurity awareness purposes only.
+This project was completed strictly for **educational purposes** as part of the Future Interns internship program.
 
-Task 1 was conducted as a read-only website review.  
-Task 2 used a sample phishing email for awareness and analysis.  
-Task 3 used only safe, read-only GET requests on the JSONPlaceholder public demo API.
-
-No unauthorized access, exploitation, data modification, load testing, or harmful activity was performed.
+No exploitation, unauthorized access, data modification, or harmful activity was performed. All observations were limited to publicly accessible information and browser-based inspection.
